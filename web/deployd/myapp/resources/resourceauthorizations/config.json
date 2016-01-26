@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"roleid": {
+			"name": "roleid",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "roleid",
+			"order": 0
+		},
+		"resourceid": {
+			"name": "resourceid",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "resourceid",
+			"order": 1
+		},
+		"canread": {
+			"name": "canread",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": true,
+			"id": "canread",
+			"order": 2
+		},
+		"canmodify": {
+			"name": "canmodify",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": true,
+			"id": "canmodify",
+			"order": 3
+		}
+	}
+}

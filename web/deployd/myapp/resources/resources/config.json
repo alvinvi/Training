@@ -1,0 +1,13 @@
+{
+	"type": "Collection",
+	"properties": {
+		"resourceurl": {
+			"name": "resourceurl",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "resourceurl",
+			"order": 0
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"userid": {
+			"name": "userid",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "userid",
+			"order": 0
+		},
+		"roleid": {
+			"name": "roleid",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "roleid",
+			"order": 1
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"timeslogged": {
+			"name": "timeslogged",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "timeslogged",
+			"order": 0
+		}
+	}
+}

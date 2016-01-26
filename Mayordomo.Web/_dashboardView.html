@@ -1,0 +1,21 @@
+﻿
+<div ng-controller="DashboardController">
+    <h1 id="page-header">Products Management</h1>
+
+    <div class="btn-group">
+        <button class="btn btn-info" ng-click="refreshData()">Refresh</button>
+        <button class="btn btn-success" ng-click="newRow()">New Row</button>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-success" ng-click="saveChanges()">Save Changes</button>
+    </div>
+    <span class="alert adjusted alert-info pull-right">
+        <i class="cus-exclamation"></i>
+        <strong>Calls Pending:</strong> <span ng-bind="callsPending"></span>
+    </span>  
+    <br />
+    <br />
+
+    <div id="grid1" ui-grid="gridOptions" ui-grid-cellNav ui-grid-edit ui-grid-resize-columns ui-grid-pinning ui-grid-selection ui-grid-move-columns ui-grid-importer ui-grid-exporter ui-grid-grouping class="grid">
+    </div>
+</div>

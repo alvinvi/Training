@@ -1,0 +1,13 @@
+{
+	"type": "Collection",
+	"properties": {
+		"rolename": {
+			"name": "rolename",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "rolename",
+			"order": 0
+		}
+	}
+}
