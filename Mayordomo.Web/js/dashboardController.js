@@ -107,7 +107,7 @@
                             $scope.myData.splice(index, 1);
                         })
                         .then(function () {
-                            theButler.says('En taro Artanis!', 'Deleted product id ' + data.id);
+                            theButler.says('Delete successful!', 'Deleted product id ' + data.id);
                         },
                         function () {
                             theButler.says('Oh, dear.', "Something has gone terribly wrong along the way.");
