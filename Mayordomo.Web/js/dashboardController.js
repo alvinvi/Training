@@ -150,7 +150,7 @@
         theButler.says('Welcome!', 'I am your Mayordomo. Enjoy your stay!');
     };
 
-    var app = angular.module("Mayordomo.Web", ['ngTouch', 'ui.grid', 'ui.grid.cellNav', 'ui.grid.edit', 'ui.grid.resizeColumns', 'ui.grid.pinning', 'ui.grid.selection', 'ui.grid.moveColumns', 'ui.grid.exporter', 'ui.grid.importer', 'ui.grid.grouping']);
+    var app = angular.module("Mayordomo.Web");
     app.controller("DashboardController", ['$scope', '$http', '$timeout', '$interval', '$q', 'uiGridConstants', 'uiGridGroupingConstants', 'theButler', DashboardController]);
 
 }());
